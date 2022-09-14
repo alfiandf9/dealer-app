@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Banner from "./components/Banner";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Chatbot from "./components/Chatbot";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Card />
       <Banner />
       <Contact />
+      <Chatbot />
       <Footer />
     </>
   );

@@ -84,7 +84,7 @@ export default function Card() {
             </a>
           ))}
       </div>
-      <button className="btn" type="submit" onClick={() => dispatch(updateParams({ page: 1, limit: params.limit + 9 }))}>
+      <button className="btn-load btn-primary" type="submit" onClick={() => dispatch(updateParams({ page: 1, limit: params.limit + 9 }))}>
         LOAD MORE
       </button>
       <Modal

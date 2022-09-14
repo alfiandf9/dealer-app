@@ -60,23 +60,6 @@
   }
 }
 
-.btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 50px auto;
-
-  width: 130px;
-  height: 48px;
-  background-color: #000;
-  color: white;
-
-  &:hover {
-    cursor: pointer;
-    opacity: 0.8;
-  }
-}
-
 @media (max-width: 1024px) {
   .cards {
     grid-template-columns: repeat(2, 400px);

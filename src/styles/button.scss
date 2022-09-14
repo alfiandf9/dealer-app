@@ -1,0 +1,32 @@
+.btn-primary {
+  background-color: #000;
+  color: white;
+  padding: 13px 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 2px solid #000;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-left: 20px;
+
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+}
+
+.btn-load  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto
+}
