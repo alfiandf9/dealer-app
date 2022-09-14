@@ -1,0 +1,62 @@
+.contact {
+  display: flex;
+  width: 45%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px auto;
+
+  &__border {
+    &-top {
+      height: 4px;
+      width: 80px;
+      background: linear-gradient(212.58deg, #ff4d00 -29.35%, #da291c 90.64%);
+      border-radius: 4px;
+      margin: 20px 0;
+    }
+    
+    &-bottom {
+      width: 60px;
+      height: 4px;
+      background: linear-gradient(212.58deg, #ff4d00 -29.35%, #da291c 90.64%);
+      border-radius: 4px;
+      margin: 20px 0;
+    }
+  }
+
+  &__title {
+    color: #4C4C4C;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 160%;
+    text-transform: uppercase;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+
+  &__icon {
+    font-size: 28px;
+
+    img {
+      margin-right: 16px;
+    }
+  }
+
+  &__info {
+    color: #0A0A0A;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+  }
+
+  &__copyright {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    text-align: center;
+    text-transform: uppercase;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+}

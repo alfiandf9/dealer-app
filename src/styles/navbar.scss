@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  background-color: #000;
+  align-items: center;
+  justify-content: flex-end;
+  height: 80px;
+  padding: 20px;
+  border-bottom: 5px solid #BA160A;
+
+  &__logo {
+    margin-right: auto;
+  }
+
+  &__link {
+    color: white;
+
+    ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    li {
+      display: inline;
+      margin-right: 40px;
+
+      a {
+        font-weight: 700;
+        line-height: 160%;
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+      }
+
+      a:hover{
+        color: #BA160A;
+      }
+
+      img {
+        margin-left: 10px;
+      }
+    }
+  }
+}
